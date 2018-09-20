@@ -1,0 +1,1 @@
+# novomartyr-wp-theme
