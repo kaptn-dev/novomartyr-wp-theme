@@ -7,7 +7,7 @@
     <div class="post-preview row">  	
   	<?php if (has_post_thumbnail()) {
   		echo '<div class="post-img col-md-4">';
-  	  echo get_the_post_thumbnail($id, array(800, 532), array('class' => 'img-fluid'));
+  	  echo get_the_post_thumbnail($id, '', array('class' => 'img-fluid'));
   	  echo '</div><!-- end post-img -->';
     	echo '<div class="col-md-8">';
       } else { 
