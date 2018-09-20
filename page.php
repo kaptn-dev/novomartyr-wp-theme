@@ -1,10 +1,11 @@
 <?php get_header(); ?>
-<?php get_template_part( 'entry-header' ); ?>
-<?php get_sidebar(); ?>
+<div class="container">
+  <div class="row">
+    <?php get_sidebar(); ?>
 
-<div class="col-sm-12 col-lg-9">
-    <h1 class="blog-post__title blog-page__title"><?php the_title(); ?></h1> 
-    <div class="blog-main blog-wrapper">
+    <div class="col-sm-12 col-lg-9">
+      <h1 class="blog-post__title blog-page__title"><?php the_title(); ?></h1> 
+      <div class="blog-main blog-wrapper">
         <?php if (have_posts()): while (have_posts()): the_post(); ?>
         
         <?php if (has_post_thumbnail()) {
@@ -13,9 +14,9 @@
         <article>
             <?php the_content(); ?>
         </article>
-        
+            
         <?php endwhile; endif; ?>
-    </div>
+      </div>
     </div><!-- end blogmain -->
   </div><!-- end row -->
 </div><!-- end container -->
