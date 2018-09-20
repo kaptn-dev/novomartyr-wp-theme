@@ -191,6 +191,31 @@ h6, .h6 {
 .sidebar-module-inset ol:last-child {
   margin-bottom: 0;
 }
+
+.sidebar-module {
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-form__input {
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.search-form__submit {
+  background: #74181C;
+  border-radius: 0 2px 2px 0;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
 .panel {
   width: 100%;
 }
