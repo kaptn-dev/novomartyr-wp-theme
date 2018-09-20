@@ -1,4 +1,4 @@
-<div class="col-sm-12 col-md-9 blog-main">
+<div class="col-sm-12 col-md-9">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="blog-post">
     <h2 class="blog-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

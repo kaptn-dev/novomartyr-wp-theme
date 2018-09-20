@@ -242,15 +242,6 @@ h6, .h6 {
  * Blog posts
  */
 
-/*@media (min-width: 769px) {
-  .post-preview {
-    display: flex;
-  }
-  .post-img {
-    min-width: 250px;
-    margin-right: 20px;
-  }
-}*/
 .post-preview {
 	text-align: justify;
 }
@@ -263,6 +254,7 @@ h6, .h6 {
   margin-bottom: 2.5rem;
   padding: 20px;
   box-shadow: 0 3px 3px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius: 2px 2px 0 0;
 }
 .blog-post-title {
   margin-bottom: .25rem;
@@ -332,8 +324,5 @@ tr:nth-child(2n) {
 .wp-post-image {
 	float: left;
 	margin-right: 20px;
-}
-.blog-main > .wp-post-image {
-	margin-bottom: 20px;
 }
 
